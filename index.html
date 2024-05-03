@@ -1,18 +1,67 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
     <title>Ichiba</title>
-    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="mx-10 bg-slate-200">
+    <h1 class="text-blue-800 text-5xl py-4 text-center bg-blue-300">Ichiba</h1>
+    <main class="grid grid-cols-12">
+
+        <div class="col-span-8"> <!--products section-->
+
+            <div class=" grid grid-cols-3 m-10 gap-4"> <!-- div for flex properties-->
+
+                <div class="card col-span-1">
+
+                    <img src="images/sample__tshirt.jpg" alt="" class="h-56 w-full">
+                    <div class="m-4">
+                        <span class="font-extrabold block">Sample Tshirts</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere repellendus corrupti
+                            nisi iste, accusantium inventore qui magnam, libero hic itaque eum placeat, eius
+                            expedita?</span>
+                    </div>
+                    <button type="button" class="bg-blue-700 rounded-2xl px-8 py-2 mx-16  text-center mb-6">Add to
+                        Cart</button>
+
+                </div>
+                <div class="card col-span-1">
+
+                    <img src="images/sample__tshirt.jpg" alt="" class="h-56 w-full">
+                    <div class="m-4">
+                        <span class="font-extrabold block">Sample Tshirts</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere repellendus corrupti
+                            nisi iste, accusantium inventore qui magnam, libero hic itaque eum placeat, eius
+                            expedita?</span>
+                    </div>
+                    <button type="button" class="bg-blue-700 rounded-2xl px-8 py-2 mx-16  text-center mb-6">Add to
+                        Cart</button>
+
+                </div>
+                <div class="card col-span-1">
+
+                    <img src="images/sample__tshirt.jpg" alt="" class="h-56 w-full">
+                    <div class="m-4">
+                        <span class="font-extrabold block">Sample Tshirts</span>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere repellendus corrupti
+                            nisi iste, accusantium inventore qui magnam, libero hic itaque eum placeat, eius
+                            expedita?</span>
+                    </div>
+                    <button type="button" class="bg-blue-700 rounded-2xl px-8 py-2 mx-16  text-center mb-6">Add to
+                        Cart</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-span-4"></div>
+
+    </main>
 </body>
 
 </html>
-

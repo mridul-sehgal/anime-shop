@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind  utilities;
+
+.card{
+    @apply bg-gray-300 rounded overflow-hidden shadow-sm shadow-slate-600;
+}
