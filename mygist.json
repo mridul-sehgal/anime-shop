@@ -5,37 +5,43 @@
         "name": "Naruto Verse",
         "description": "Casual cotton T-shirt featuring your favorite characters from Naruto",
         "image": "https://th.bing.com/th/id/OIG2.t4eP6k7J4im1cE6GvPuT?pid=ImgGn",
-        "price": 550
+        "price": 550,
+        "id":"c1"
       },
       {
         "name": "Goku Super Saiyan God Blue",
         "description": "Wanna feel like how it feels to like 'HIM', ofcourse this T-shirt will help...DUH ",
         "image": "https://th.bing.com/th/id/OIG1.eQ4nCS8snASHSddiOoBf?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        "price": 900
+        "price": 900,
+        "id":"c2"
       },
       {
         "name": "Monkey D Luffy",
         "description": "Hmmm....Minamino Shimawa....please ODA end this before the world ends.",
         "image": "https://th.bing.com/th/id/OIG3.h55d9wPE.V1hTGLpLUSE?pid=ImgGn",
-        "price": 650
+        "price": 650,
+        "id":"c3"
       },
       {
         "name": "Ichigo Kurosaki",
         "description": "The t-shirt showcases Ichigo Kurosaki, the protagonist from the popular anime series Bleach.",
         "image": "https://th.bing.com/th/id/OIG2.mNW6hNf1y7_wCOahgPm.?pid=ImgGn",
-        "price": 550
+        "price": 550,
+        "id":"c4"
       },
       {
         "name": "Gojo-Sukuna",
         "description": "Damn...... Gege's stepson and boyfriend look goood in a frame",
         "image": "https://i.ebayimg.com/images/g/8FsAAOSw1wtiaqjv/s-l1600.jpg",
-        "price": 850
+        "price": 850,
+        "id":"c5"
       },
       {
         "name": "Kamado Siblings",
         "description": "The beautiful duo of the siblings who both conquered the Sun",
         "image": "https://i.pinimg.com/originals/a6/e2/d8/a6e2d84d001f3e7006d37bc2aed5e77d.png",
-        "price": 500
+        "price": 500,
+        "id":"c6"
       }
     ],
     "manga": [
@@ -43,37 +49,43 @@
             "name": "One Piece",
             "description": "Adventure manga by Eiichiro Oda",
             "image": "https://dw9to29mmj727.cloudfront.net/products/1974732177.jpg",
-            "price": 99
+            "price": 99,
+            "id":"m1"
           },
           {
             "name": "Naruto",
             "description": "Ninja manga by Masashi Kishimoto",
             "image": "https://cdn.kobo.com/book-images/156656d0-9557-424e-848b-31c32dc645d7/353/569/90/False/naruto-vol-18.jpg",
-            "price": 89
+            "price": 89,
+            "id":"m2"
           },
           {
             "name": "Dragon Ball Z",
             "description": "Action-packed manga by Akira Toriyama",
             "image": "https://static.mangafire.to/i/5/57/57d93191aa22e4e13939638fb0e592a8.jpg",
-            "price": 109
+            "price": 109,
+            "id":"m3"
           },
           {
             "name": "Bleach",
             "description": "Supernatural manga by Tite Kubo",
             "image": "https://static.mangafire.to/i/3/37/37a6c4cbd66373e69260e9bae3a91720.jpg",
-            "price": 99
+            "price": 99,
+            "id":"m4"
           },
           {
             "name": "Jujutsu Kaisen",
             "description": "Dark fantasy manga by Gege Akutami",
             "image": "https://static.mangafire.to/i/9/9a/705cc8340029c6c8eab2469c6d9c9f7d.jpg",
-            "price": 119
+            "price": 119,
+            "id":"m5"
           },
           {
             "name": "Demon Slayer",
             "description": "Demon-hunting manga by Koyoharu Gotouge",
             "image": "https://static.mangafire.to/i/b/bd/bd4f518bcd9511455b411241c4121633.jpg",
-            "price": 129
+            "price": 129,
+            "id":"m6"
           }
     ],
     "accessories": [
@@ -81,37 +93,43 @@
         "name": "Dragon Ball Z Keychains",
         "description": "High quality premium quality keychains",
         "image": "https://th.bing.com/th/id/OIG3.H4n5SBpdJ_nA2ebxvbOS?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        "price": 250
+        "price": 250,
+        "id":"a1"
       },
       {
         "name": " Naruto Keychains",
         "description": "High quality premium quality keychains",
         "image": "https://th.bing.com/th/id/OIG4.f5ag8PtgDGVvGs549ng.?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        "price": 230
+        "price": 230,
+        "id":"a2"
       },
       {
         "name": " One Peice Keychains",
         "description": "High quality premium quality keychains",
         "image": "https://th.bing.com/th/id/OIG3.ybkt6zkbquZJkhXo2FsY?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        "price": 245
+        "price": 245,
+        "id":"a3"
       },
       {
         "name": " Goku Action Figure",
         "description": "High quality premium quality Action figures",
         "image": "https://th.bing.com/th/id/OIG3.kdTL1_3ZfnjvjsiznH_3?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        "price": 3000
+        "price": 3000,
+        "id":"a4"
       },
       {
         "name": " Naruto Action Figure",
         "description": "High quality premium quality Action figures",
         "image": "https://th.bing.com/th/id/OIG3.NbHEoEpGn2Y5BVxbQ1as?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        "price": 3000
+        "price": 3000,
+        "id":"a5"
       },
       {
         "name": " Luffy Action Figure",
         "description": "High quality premium quality Action figures",
         "image": "https://th.bing.com/th/id/OIG1.v8cEiKWqz0O3n6piyPbc?w=1024&h=1024&rs=1&pid=ImgDetMain",
-        "price": 3000
+        "price": 3000,
+        "id":"a6"
       }
     ]
   }
