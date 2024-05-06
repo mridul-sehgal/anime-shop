@@ -1,6 +1,6 @@
 
 {
-    "clothing": [
+    "products": [
       {
         "name": "Naruto Verse",
         "description": "Casual cotton T-shirt featuring your favorite characters from Naruto",
@@ -42,53 +42,50 @@
         "image": "https://i.pinimg.com/originals/a6/e2/d8/a6e2d84d001f3e7006d37bc2aed5e77d.png",
         "price": 500,
         "id":"c6"
-      }
-    ],
-    "manga": [
-        {
-            "name": "One Piece",
-            "description": "Adventure manga by Eiichiro Oda",
-            "image": "https://dw9to29mmj727.cloudfront.net/products/1974732177.jpg",
-            "price": 99,
-            "id":"m1"
-          },
-          {
-            "name": "Naruto",
-            "description": "Ninja manga by Masashi Kishimoto",
-            "image": "https://cdn.kobo.com/book-images/156656d0-9557-424e-848b-31c32dc645d7/353/569/90/False/naruto-vol-18.jpg",
-            "price": 89,
-            "id":"m2"
-          },
-          {
-            "name": "Dragon Ball Z",
-            "description": "Action-packed manga by Akira Toriyama",
-            "image": "https://static.mangafire.to/i/5/57/57d93191aa22e4e13939638fb0e592a8.jpg",
-            "price": 109,
-            "id":"m3"
-          },
-          {
-            "name": "Bleach",
-            "description": "Supernatural manga by Tite Kubo",
-            "image": "https://static.mangafire.to/i/3/37/37a6c4cbd66373e69260e9bae3a91720.jpg",
-            "price": 99,
-            "id":"m4"
-          },
-          {
-            "name": "Jujutsu Kaisen",
-            "description": "Dark fantasy manga by Gege Akutami",
-            "image": "https://static.mangafire.to/i/9/9a/705cc8340029c6c8eab2469c6d9c9f7d.jpg",
-            "price": 119,
-            "id":"m5"
-          },
-          {
-            "name": "Demon Slayer",
-            "description": "Demon-hunting manga by Koyoharu Gotouge",
-            "image": "https://static.mangafire.to/i/b/bd/bd4f518bcd9511455b411241c4121633.jpg",
-            "price": 129,
-            "id":"m6"
-          }
-    ],
-    "accessories": [
+        
+      },
+      {
+        "name": "One Piece",
+        "description": "Adventure manga by Eiichiro Oda",
+        "image": "https://dw9to29mmj727.cloudfront.net/products/1974732177.jpg",
+        "price": 99,
+        "id":"m1"
+      },
+      {
+        "name": "Naruto",
+        "description": "Ninja manga by Masashi Kishimoto",
+        "image": "https://cdn.kobo.com/book-images/156656d0-9557-424e-848b-31c32dc645d7/353/569/90/False/naruto-vol-18.jpg",
+        "price": 89,
+        "id":"m2"
+      },
+      {
+        "name": "Dragon Ball Z",
+        "description": "Action-packed manga by Akira Toriyama",
+        "image": "https://static.mangafire.to/i/5/57/57d93191aa22e4e13939638fb0e592a8.jpg",
+        "price": 109,
+        "id":"m3"
+      },
+      {
+        "name": "Bleach",
+        "description": "Supernatural manga by Tite Kubo",
+        "image": "https://static.mangafire.to/i/3/37/37a6c4cbd66373e69260e9bae3a91720.jpg",
+        "price": 99,
+        "id":"m4"
+      },
+      {
+        "name": "Jujutsu Kaisen",
+        "description": "Dark fantasy manga by Gege Akutami",
+        "image": "https://static.mangafire.to/i/9/9a/705cc8340029c6c8eab2469c6d9c9f7d.jpg",
+        "price": 119,
+        "id":"m5"
+      },
+      {
+        "name": "Demon Slayer",
+        "description": "Demon-hunting manga by Koyoharu Gotouge",
+        "image": "https://static.mangafire.to/i/b/bd/bd4f518bcd9511455b411241c4121633.jpg",
+        "price": 129,
+        "id":"m6"
+      },
       {
         "name": "Dragon Ball Z Keychains",
         "description": "High quality premium quality keychains",
