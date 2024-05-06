@@ -4,7 +4,21 @@ import Product from "../models/products";
 import makeNetworkCall from "./api-client";
 
 const productOperations = {
-  // function 1
+  products:[],
+  search(productId){
+    const product=this.products.find((currentProduct)=>{
+      return currentProduct.id===productId
+    })
+    console.log('product found',product);
+    product.isAddedInCart=true;
+
+  },
+
+  getProductsInCart(){
+    const productInBasket=this.products.filter(product=>product.isAddedInCart)
+    return productInBasket;
+  },
+
   async loadProducts() {
     const anime = await makeNetworkCall();
     const product = anime["products"];
@@ -19,6 +33,7 @@ const productOperations = {
       );
       return currentProd;
     });
+    this.products=ProductArray
     return ProductArray;
   },
 };

@@ -12,6 +12,26 @@ async function loadingProducts() {
 
 loadingProducts();
 
+function addToCart() {
+  console.log('Add to cart pizza called',this);
+  const currentButton=this;
+  const productId=currentButton.getAttribute('product-id')
+  console.log('product id is',productId);
+  productOperations.search(productId)
+  printBasket()
+}
+
+function printBasket(){
+  const cartProducts=productOperations.getProductsInCart();
+  const basket=document.querySelector('#basket')
+  basket.innerHTML='';
+  for(let product of cartProducts)
+    {
+      const li=document.createElement('li')
+      li.innerText=`${product.name} ${product.price}`
+      basket.appendChild(li);
+    }
+}
 
 function displayProduct(prod) {
   const outputDiv = document.querySelector("#output");
@@ -45,13 +65,15 @@ function displayProduct(prod) {
   textDiv.appendChild(spanPrice);
 
   const button = document.createElement("button");
+  //button.addEventListener('click')
   button.type = "button";
+  button.setAttribute('product-id',prod.id)
+  button.addEventListener('click',addToCart)
   button.className =
     "bg-blue-700 rounded-2xl px-8 py-2 mx-16  text-center mb-6";
   button.innerText = "Add to Cart";
   colDiv.appendChild(button);
-  button.addEventListener("click", addToCart);
-  button.setAttribute("productId", prod.id);
+
 }
 
 
