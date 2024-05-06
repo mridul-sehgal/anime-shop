@@ -32,6 +32,11 @@ async function loadAccessories()
 loadAccessories();
 
 
+function addToCart(){
+    
+}
+
+
 function displayClothing(cloth){
 
     const outputDiv=document.querySelector('#output')
@@ -69,4 +74,5 @@ function displayClothing(cloth){
     button.className="bg-blue-700 rounded-2xl px-8 py-2 mx-16  text-center mb-6"
     button.innerText="Add to Cart";
     colDiv.appendChild(button);
+    button.addEventListener('click',addToCart)
 }
