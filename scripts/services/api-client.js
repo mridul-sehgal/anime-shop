@@ -1,6 +1,4 @@
 //Network calls
-// gist api link https://gist.githubusercontent.com/mridul-sehgal/5c600157b28454648a14f459d1244994/raw/4beb73488caadf5d750c250f096b2f0accaf3f1a/anime.json
-// file api link https://raw.githubusercontent.com/mridul-sehgal/anime-shop/main/mygist.json
 
 // old way , causes call back hell
 //function doNetworkCall() {
@@ -30,7 +28,8 @@
 //}
 
 async function makeNetworkCall() {
-    const URL = "https://raw.githubusercontent.com/mridul-sehgal/anime-shop/main/mygist.json"
+  const URL =
+    "https://raw.githubusercontent.com/mridul-sehgal/anime-shop/main/mygist.json";
   try {
     const response = await fetch(URL);
     const object = await response.json();
