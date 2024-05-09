@@ -9,6 +9,7 @@
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
     <script defer src="./scripts/services/payment.js" type="module"></script>
     <script src="./scripts/controller/productController.js" type="module"></script>
+    <script src="https://kit.fontawesome.com/11d9db0949.js" crossorigin="anonymous"></script>
     <title>Ichiba</title>
 </head>
 
@@ -61,14 +62,17 @@
         </div>
 
         
-        <div class="col-span-3 mx-10 border-solid border-2">            
-            <div class="  sticky top-0 z-50 ">                
+        <div class="col-span-3 mx-4 border-solid border-2 p-5 bg-[#255c5d]">            
+            <div class="  sticky top-0 z-50 pt-4 overflow-y-auto">                
                 <div>
-                    <span class="font-Lilita text-[#255c5d] px-16 text-6xl">Basket</span>
+                    <span class="font-Lilita text-white px-16 text-6xl ">Basket</span>
                     
-                        <ul id="basket"></ul>
-                        <div id="total"></div>
-                        <button id="rzp-button1">Pay</button>
+                        <ul id="basket">
+                        </ul>
+                        <div id="total" class="my-10">
+
+                        </div>
+                        <button class="bg-yellow-400 block rounded-2xl px-16 py-2 text-white font-Lilita text-center mx-20" id="rzp-button1">Pay</button>
                     
                 </div>
             </div>
@@ -76,14 +80,9 @@
 
     </main> 
 
-    <footer class=" bg-zinc-800 ">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolores, provident adipisci laudantium
-        praesentium soluta facilis rem voluptatum, nulla esse possimus odio omnis veritatis recusandae, vel neque quas
-        blanditiis earum totam itaque magnam? Eum culpa aperiam eligendi debitis numquam animi maxime quas error id
-        commodi veniam repudiandae sint temporibus ea repellendus, doloribus inventore officia, rem vel? Fugiat tempora
-        animi, facere exercitationem unde dolore! Nam placeat nesciunt, aspernatur excepturi veniam aliquid, sit impedit
-        laborum, voluptatem odit ex ipsam maiores a perspiciatis ut tempora at dolorum sunt eveniet saepe minus. Aliquid
-        obcaecati ullam nisi nostrum. Inventore dolore ratione rerum aspernatur doloremque magnam?
+    <footer class="p-20  bg-yellow-400 text-center mt-12">
+        <span class="text-center text-3xl font-Macondo block font-extrabold   text-[#255c5d]">Ichiba : The Weeb Store</span>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga nostrum nisi quasi id fugiat delectus sit ducimus nobis, natus cum culpa nam, incidunt atque iure optio voluptatibus aliquam deleniti, consequuntur quaerat quisquam excepturi placeat animi repudiandae suscipit. Error possimus omnis, modi ipsum asperiores, quasi ipsam nihil consectetur ducimus, mollitia aspernatur.
     </footer>
 </body>
 

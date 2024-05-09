@@ -30,7 +30,11 @@ module.exports = {
     "text-zinc-500",
     "text-white",
     "text-[#255c5d]",
-    "mt-3"
+    "mt-3",
+    "mt-4",
+    "my-4",
+    "border-white",
+    " p-5", "text-white","p-3"
   ],
   theme: {
     extend: {

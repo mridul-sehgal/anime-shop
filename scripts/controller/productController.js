@@ -36,7 +36,8 @@ function displayTotal() {
 
   const formattedTotal = amount.toFixed(2); 
   const totalSpan = document.createElement('span');
-  totalSpan.innerText = `${formattedTotal}`; 
+  totalSpan.className="bg-yellow-400  text-center p-5 my-4 text-[#255c5d]  block font-Lilita"
+  totalSpan.innerText = `Total: ₹${formattedTotal}`; 
   total.appendChild(totalSpan);
   
 }
@@ -64,7 +65,8 @@ function printBasket(){
   for(let product of cartProducts)
     {
       const li=document.createElement('li')
-      li.innerText=`${product.name} ${product.price}`
+      li.className="border-solid border-2 border-white p-3 mt-3 text-white font-Lilita"
+      li.innerText=`${product.name} \n ₹${product.price}`
       basket.appendChild(li);
     }
 }

@@ -22,7 +22,7 @@ var options = {
         "address": "Razorpay Corporate Office"
     },
     "theme": {
-        "color": "#3399cc"
+        "color": "#255c5d"
     }
 };
 
