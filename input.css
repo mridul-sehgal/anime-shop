@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind  utilities;
 
 .card{
-    @apply bg-gray-300 rounded overflow-hidden shadow-sm shadow-slate-600;
+    @apply  rounded overflow-hidden shadow-lg shadow-[#67bdbe] border-solid border-2 text-center border-[#255c5d];
 }
+
