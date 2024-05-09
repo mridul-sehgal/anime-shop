@@ -13,18 +13,54 @@ async function loadingProducts() {
 loadingProducts();
 
 function addToCart() {
-  console.log('Add to cart pizza called',this);
+  //console.log('Add to cart pizza called',this);
   const currentButton=this;
   const productId=currentButton.getAttribute('product-id')
-  console.log('product id is',productId);
+  //console.log('product id is',productId);
   productOperations.search(productId)
   printBasket()
+  displayTotal()
+  calculateTotal()
 }
+
+
+function displayTotal() {
+  const cartProducts = productOperations.getProductsInCart();
+  const total = document.querySelector("#total");
+  total.innerText = '';
+
+  let amount=0;
+  for (let product of cartProducts) {
+    amount += product.price;
+  }
+
+  const formattedTotal = amount.toFixed(2); 
+  const totalSpan = document.createElement('span');
+  totalSpan.innerText = `${formattedTotal}`; 
+  total.appendChild(totalSpan);
+  
+}
+
+function calculateTotal()
+{
+  
+  const cartProducts = productOperations.getProductsInCart();
+  let money=0;
+  for (let product of cartProducts) {
+    money += product.price;
+  }
+  
+  console.log(money);
+  return money*100;
+}
+
+export {calculateTotal}
+
 
 function printBasket(){
   const cartProducts=productOperations.getProductsInCart();
   const basket=document.querySelector('#basket')
-  basket.innerHTML='';
+  basket.innerText='';
   for(let product of cartProducts)
     {
       const li=document.createElement('li')

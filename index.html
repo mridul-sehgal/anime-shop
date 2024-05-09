@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="#">
     <link rel="stylesheet" href="input.css">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script defer src="./scripts/services/payment.js" type="module"></script>
     <script src="./scripts/controller/productController.js" type="module"></script>
     <title>Ichiba</title>
 </head>
@@ -23,6 +25,8 @@
 
         <div class="col-span-4">
             <ul id="basket"></ul>
+            <div id="total"></div>
+            <button id="rzp-button1">Pay</button>
         </div>
 
     </main>

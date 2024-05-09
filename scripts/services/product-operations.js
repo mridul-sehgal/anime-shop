@@ -9,7 +9,7 @@ const productOperations = {
     const product=this.products.find((currentProduct)=>{
       return currentProduct.id===productId
     })
-    console.log('product found',product);
+    //console.log('product found',product);
     product.isAddedInCart=true;
 
   },
